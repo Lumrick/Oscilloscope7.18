@@ -1,0 +1,8 @@
+set_property PACKAGE_PIN H4 [get_ports clk]
+set_property PACKAGE_PIN M2 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports rst_n]
+set_property IOSTANDARD LVCMOS33 [get_ports txd]
+set_property PACKAGE_PIN C12 [get_ports txd]
+set_property PACKAGE_PIN N4 [get_ports oe]
+set_property IOSTANDARD LVCMOS33 [get_ports oe]
